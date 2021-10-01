@@ -1,0 +1,37 @@
+.jumbotron {
+    text-align: center;
+    background-color: lightskyblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#currentDay {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timeslot {
+display: flex;
+justify-content: center;
+text-align: right;
+}
+
+input, .past, .present, .future{
+    min-width: 60vw;
+}
+
+.timeblock {
+    min-width: 10vw;
+    border: dotted blue 2px;
+}
+
+.past {
+    background-color: gray;
+  }
+
+.present {
+    background-color: salmon;
+  }
+
+.future {
+    background: greenyellow;
+  }

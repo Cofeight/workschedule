@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Chris' Work Day Scheduler</title>
+  </head>
+
+  <body>
+
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    
+    <div class="container">
+     
+      <!-- Timeblocks go here -->
+     
+      <div id="hour-9" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">9AM</p>
+        </div>
+          <input id="9-text" class="textInput">
+          <button id="9-button" class="saveBtn">📋</button>
+      </div>
+
+      <div id="hour-10" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">10AM</p>
+        </div>
+          <input id="10-text" class="textInput">
+          <button id="10-button" class="saveBtn">📋</button>
+      </div>
+
+      <div id="hour-11" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">11AM</p>
+        </div>
+          <input id="11-text" class="textInput">
+          <button id="11-button" class="saveBtn">📋</button>
+      </div>
+            
+      <div id="hour-12" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">12PM</p>
+        </div>
+          <input id="12-text" class="textInput">
+          <button id="12-button" class="saveBtn">📋</button>
+      </div>
+            
+      <div id="hour-13" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">1PM</p>
+        </div>
+          <input id="13-text" class="textInput">
+          <button id="13-button" class="saveBtn">📋</button>
+      </div>
+            
+      <div id="hour-14" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">2PM</p>
+        </div>
+          <input id="14-text">
+          <button id="14-button" class="saveBtn">📋</button>
+      </div>
+            
+      <div id="hour-15" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">3PM</p>
+        </div>
+          <input id="15-text">
+          <button id="15-button" class="saveBtn">📋</button>
+      </div>
+            
+      <div id="hour-16" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">4PM</p>
+        </div>
+          <input id="16-text">
+          <button id="16-button" class="saveBtn">📋</button>
+      </div>
+            
+      <div id="hour-17" class="timeslot">
+        <div class="timeblock">
+          <p class="hour">5PM</p>
+        </div>
+          <input id="17-text">
+          <button id="17-button" class="saveBtn">📋</button>
+      </div>
+      
+    </div>
+      <div></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
